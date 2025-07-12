@@ -18,8 +18,8 @@ body{
 }
 
 #introduction, #inspiration, #organization, #creativity-design, #productivity, #storage, footer{
-    width: 80vw;
-    padding: 2%;
+    width: 100%;
+    padding: 4%;
 }
 
 h1{
@@ -424,7 +424,6 @@ input:hover[type="submit"]{
         margin-bottom: 2.2rem;
         color: #2c2c2c;
         font-size: 1rem;
-        text-align: center;
     }
 
 /*DISPOSITVOS 1024px CARDS*/
@@ -575,7 +574,7 @@ span{
     /*-- Header/ fondo blur + Logo --*/
 
     h1{
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
 
     .logo img{
@@ -659,9 +658,10 @@ span{
   }
   #pop-up:target ~ header .cerrar#cerrar-menu {
     display: block;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     z-index: 1000;
+    margin-top: 0.6rem;
   }
 
   #pop-up:target ~ #main .video-container {
@@ -756,7 +756,7 @@ footer img{
 
 /*CARDS & FOOTER*/
     p{
-        margin: 1rem;
+        margin: 0rem;
     }
     .card, footer{
         font-size: 0.8rem;
@@ -777,6 +777,7 @@ footer img{
         display: block;
         padding: 5%;
         width: 100%;
+        margin-bottom: 2%;
     }
     
     .banner-section #banner{
@@ -931,7 +932,6 @@ footer img{
     h3{
         font-weight: 500;
         font-size: 1.2rem;
-        text-align: center;
     }
     
     .btn-primary{
