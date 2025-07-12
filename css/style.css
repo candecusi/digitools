@@ -10,11 +10,16 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Figtree", sans-serif;
+    width: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
 #introduction, #inspiration, #organization, #creativity-design, #productivity, #storage, footer{
-    padding: 4%;
-    overflow: hidden;
+    width: 80vw;
+    padding: 2%;
 }
 
 h1{
@@ -38,6 +43,7 @@ h1{
     list-style: none;
     align-items: center;
     padding: 0.5rem 0.6rem 0.6rem 1.5rem;
+    width: 100%;
 }
 
 header{
@@ -46,6 +52,7 @@ header{
     left: 0;
     z-index: 1;
     background-color: #fff;
+    width: 100%;
 }
 
 .menu-mobile{
@@ -221,6 +228,7 @@ footer{
     justify-content: space-between;
     padding: 4%;
     background-color: #e7dcdc;  
+    width: 100%;
 }
 
 /*-- Footer/ Foto de Perfil --*/
@@ -288,10 +296,6 @@ input:hover[type="submit"]{
 
 /* RESPONSIVE Form */
 @media (max-width: 576px) {
-    form {
-        padding: 1.5rem;
-        margin: 5%;
-    }
     
     input, select {
         padding: 0.7rem;
@@ -375,6 +379,7 @@ input:hover[type="submit"]{
     .card{
         margin-right: 1.8rem;
         width: 23rem;
+        margin-right: 2rem;
     }
 
     /*-- Tarjetas/ Imagenes Sitios Webs --*/
@@ -432,7 +437,7 @@ input:hover[type="submit"]{
     .card{
         width: 18rem;
         height: 32.5rem;
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
 /*-- Tarjetas/ Imagenes Sitios Webs --*/
@@ -523,7 +528,7 @@ span{
 .card{
     width: 16rem;
     height: 32.5rem;
-    margin-right: 2.2rem;
+    margin-right: 2rem;
 }
 
 /*-- Tarjetas/ Imagenes Sitios Webs --*/
@@ -582,6 +587,7 @@ span{
 
 .header-content{
     padding: 4%;
+    width: 100%;
 }
 .menu{
     display: none;
@@ -592,7 +598,7 @@ span{
 .menu-icon, .cerrar{
     color: #000;
     text-decoration: none;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 
@@ -763,16 +769,18 @@ footer img{
 
     #introduction, #inspiration, #organization, #creativity-design, #productivity, footer{
         padding: 5%;
+        width: 100%;
     }
 
     /*-- Main / Banner --*/
     main .banner-section{
         display: block;
         padding: 5%;
+        width: 100%;
     }
     
     .banner-section #banner{
-        width: 90vw;
+        width: 100vw;
     }
     
     
@@ -919,7 +927,7 @@ footer img{
     h3{
         font-weight: 500;
         font-size: 1.2rem;
-        text-align: left;
+        text-align: center;
     }
     
     .btn-primary{
@@ -946,7 +954,7 @@ footer img{
     
     .card{
         width: 88vw;
-        height: 80vh;
+        height: 600px;
     }
     
     /*-- Tarjetas/ Imagenes Sitios Webs --*/
@@ -987,6 +995,10 @@ footer img{
     }
 
     /*-- Footer/ Foto de Perfil --*/
+
+    .profile{
+        text-align: center;
+    }
     
     /*-- Se mantiene: Footer/ Info Perfil y Fuentes (source) --*/
     
