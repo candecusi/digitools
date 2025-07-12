@@ -598,7 +598,7 @@ span{
 .menu-icon, .cerrar{
     color: #000;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 
@@ -873,6 +873,10 @@ footer img{
     
     /*-- Se mantiene: Footer/ Info Perfil y Fuentes (source) --*/
     
+    .form{
+        padding: 2%;
+        margin: 2%;
+    }
 }
 
 
